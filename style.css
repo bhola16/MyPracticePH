@@ -105,7 +105,7 @@ body {
 }
 
 .main-container {
-  padding: 25px;
+  padding: 5px;
   margin: 20px auto;
   max-width: 100%;
   /* border: 5px solid red; */
@@ -114,11 +114,19 @@ body {
 
 .hero h1 {
   font-size: 3rem;
-  margin-bottom: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 5px;
+  color: tomato;
+  text-shadow: 2px 15px 10px gainsboro;
 }
 
 .hero p {
+  margin-bottom: 50px;
   font-size: 1.3rem;
+  color: black;
+  font-weight: 600;
+  font-family:'Times New Roman', Times, serif;
+  text-shadow: 2px 15px 10px gainsboro;
 }
 
 .hero {
@@ -147,7 +155,7 @@ body {
   margin: 0;
   border: 3px solid rgba(10, 89, 237, 0.829);
   border-radius: 10px;
-  box-shadow: 30px 15px 50px rgba(166, 139, 139, 0.23);
+  box-shadow: 30px 15px 50px rgba(166, 139, 139, 0.43);
   backdrop-filter: blur(20px);
   text-align: center;
   transition: all 0.3s ease;
