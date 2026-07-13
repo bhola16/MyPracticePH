@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Open Sans", sans-serif; */
+  width: 100%;
+  padding: 0 10px;
+}
+
+.navbar {
+  padding: 10px 0;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.nav-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+.navbar img {
+  height: 50px;
+}
+
+.nav-link li a {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.common-btn {
+  background-color: #e8ba2e;
+  padding: 0 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 12px;
+  border: navajowhite;
+  height: 50px;
+  /* margin-left: 10px; */
+}
+
+.banner {
+  color: white;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url("./Images/Banner_background.png");
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: flex-end;
+  padding: 60px;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.banner-con {
+  width: 500px;
+  padding: 0 10px;
+  /* margin-bottom: 80px; */
+}
+
+.heading-tag {
+  padding: 0 15px;
+  font-size: 1.5rem;
+  font-family: "Host Grotesk", sans-serif;
+}
+
+.banner-con p {
+  font-size: 1.2rem;
+  font-family: "Host Grotesk", sans-serif;
+  padding: 5px 15px;
+  line-height: 1.5;
+}
+.banner-con button {
+  margin: 20px 15px;
+  font-family: "Host Grotesk", sans-serif;
+}
+
+.details {
+  background-color: #f4c430;
+  margin: 10px 0;
+  border-radius: 16px;
+  /* height: 230px; */
+  padding: 30px;
+  display: flex;
+  justify-content: last baseline;
+  align-items: center;
+  gap: 50px;
+}
+
+.details-info {
+  margin-right: 5%;
+}
+.details-info p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.details-info h1 {
+  font-size: 44px;
+}
+
+/* Host cities  */
+.host {
+  margin: 50px;
+}
+
+.host h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.cities {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.cities img {
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.city-info {
+  flex: 1;
+}
+
+.city-info h2 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.city-info p {
+  line-height: 1.6;
+}
+
+.city-info ul {
+  padding-left: 20px;
+}
+
+.host button {
+  display: block;
+  margin: 40px auto 0;
+}
